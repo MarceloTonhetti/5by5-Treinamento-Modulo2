@@ -1,0 +1,10 @@
+.pessoas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;    
+    justify-content: space-between;
+}
+
+button {
+    color: black;
+}

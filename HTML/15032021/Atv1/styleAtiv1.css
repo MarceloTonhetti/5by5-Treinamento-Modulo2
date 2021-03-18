@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana;
+}
+
+.Center {
+    text-align: center;
+    margin: auto;
+    /*margin-top: 30px;*/
+}
+
+
+.TitleHome {
+    font-size: 270%;
+    margin-bottom: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.SubTitle {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.MenuButton {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.TimeTable{
+    margin-top: 70px;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+}
+
+table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+
+th, td{
+     padding: 5px;
+     text-align: center;
+ }
+
+ table#t01 tr:nth-child(even){
+     background-color: #eee;
+ }
+
+ table#t01 tr:nth-child(odd){
+     background-color: #fff;
+ }
+
+ table#t01 th {
+     background-color: black;
+     color: white;
+ }
+
+
+/*Styles Produtos*/
+
+.ProductList {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.Product{
+    margin: 10px 10px;
+    padding: 6px;
+    border: 1px solic black;
+    border-radius: 4px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+.img {
+    margin: auto;
+    width: 230px;
+    height: 150px;
+}
+
+.Logo{
+    width: 80px;
+    height: 80px;
+}
